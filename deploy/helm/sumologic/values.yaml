@@ -224,7 +224,7 @@ sumologic:
             default_date_formats:
               ## Ensures that timestamp key has precedence over timestamp auto discovery
               - format: epoch
-                locator: '"timestamp":(\d+)'
+                locator: "\"timestamp\":(\\d+)"
 
           # filters:
           #   - name: "Test Exclude Debug"
